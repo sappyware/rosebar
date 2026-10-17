@@ -1,7 +1,7 @@
 # rosebar
 A bar for people who like islands.
 
-
+![rosebar screenshot](rosebar.png)
 ## requirements
 
 - **linux + wayland** — rosebar is intended for wayland desktops.
