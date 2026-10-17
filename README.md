@@ -44,5 +44,37 @@ exec_once=qs -c rosebar
 
 ## configuration
 config file is located at ```~/.config/rosebar/config.toml```
+```bash
+[font]
+family = 'Iosevka NF'
+fallback = ["Symbols Nerd Font Mono", "Noto Sans Symbols 2", "monospace"]
+size = 20
+weight = "bold"
+italic = false
+letter_spacing = 0
+
+[bar]
+margin_top    = 12
+margin_bottom = 6
+
+
+[workspaces]
+count = 5
+
+[media]
+artSize     = 28
+bars        = 12
+barWidth    = 2
+barGap      = 2
+maxTitleLen = 40
+visualizer  = true
+coverArt    = true
+enabled     = true
+
+[layout]
+left   = ["brand", "workspaces", "tray"]
+center = ["media",  "title"]
+right  = ["cpu", "memory", "network", "volume", "battery", "clock"]
+```
 
 ## help me fix any bugs with PRs!
