@@ -22,7 +22,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-the installer copies the QML files into `~/.config/quickshell/rosebar/`. if files already exist there, it backs them up before replacing them.
+the installer copies the QML files into `~/.config/quickshell/rosebar/`.
 
 ## running
 
