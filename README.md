@@ -41,3 +41,5 @@ example usage in MangoWM:
 ```bash
 exec_once=qs -c rosebar
 ```
+
+## help me fix any bugs with PRs!
