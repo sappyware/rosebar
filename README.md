@@ -42,4 +42,7 @@ example usage in MangoWM:
 exec_once=qs -c rosebar
 ```
 
+## configuration
+config file is located at ```~/.config/rosebar/config.toml```
+
 ## help me fix any bugs with PRs!
