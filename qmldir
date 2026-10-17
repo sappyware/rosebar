@@ -1,0 +1,12 @@
+singleton Config 1.0 Config.qml
+singleton Theme  1.0 Theme.qml
+singleton Sys    1.0 Sys.qml
+singleton Tags   1.0 Tags.qml
+
+Bar           1.0 Bar.qml
+Chip          1.0 Chip.qml
+ModTitle      1.0 ModTitle.qml
+ModWorkspaces 1.0 ModWorkspaces.qml
+ModVolume     1.0 ModVolume.qml
+ModMedia      1.0 ModMedia.qml
+ModTray       1.0 ModTray.qml
