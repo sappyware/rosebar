@@ -2,6 +2,15 @@
 A bar for people who like islands.
 
 
+## requirements
+
+- **linux + wayland** — rosebar is intended for wayland desktops.
+- **[quickshell](https://github.com/quickshell-mirror/quickshell)** — required to run the bar.
+- **a compatible wayland compositor** — workspace and window-title features depend on compositor support. (MangoWM used for testing)
+- **coreutils** — used by the installer for file operations.
+
+some modules may require additional system utilities or services, depending on how they are implemented. make sure any tools used by your configuration are installed and available in your `PATH`.
+
 ## installation
 
 clone the repository and run the installer:
