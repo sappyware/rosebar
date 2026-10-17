@@ -37,3 +37,7 @@ to stop it, use:
 ```bash
 qs -c rosebar kill
 ```
+example usage in MangoWM:
+```bash
+exec_once=qs -c rosebar
+```
