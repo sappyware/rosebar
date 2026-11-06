@@ -94,7 +94,7 @@ QtObject {
             v = _rgbLin(L, lo, h);
         }
         var n = (Math.round(_gam(v[0]) * 255) << 16) | (Math.round(_gam(v[1]) * 255) << 8) | Math.round(_gam(v[2]) * 255);
-        return "#" + (1.67772e+07 | n).toString(16).slice(1);
+        return "#" + ("000000" + n.toString(16)).slice(-6);
     }
 
     function scheme(seedHex, dark, variant, tint) {
