@@ -1,0 +1,26 @@
+# Rosebar: Material 3 Expressive example. Put at the top of config.toml.
+design = "md3e"            # "custom" = the old fully-configurable look (default)
+
+[md3]
+mode    = "auto"           # dark | light | auto (reads gsettings color-scheme, else dark)
+source  = "wallpaper"      # seed | wallpaper | colors
+seed    = "#6750A4"        # used by source = "seed" and as wallpaper fallback
+variant = "analogous"      # analogous | tonal-spot | vibrant | expressive | neutral | monochrome
+tint    = 2.0              # how much surfaces take the wallpaper hue (0 = grey)
+motion  = "expressive"     # expressive (springy) | standard
+# wallpaper = "~/Pictures/wall.png"     # explicit path; otherwise auto-detect (awww/swww/swaybg)
+# wallpaper_cmd = "cat ~/.cache/wall"   # or a command that prints the path
+# wallpaper_poll_ms = 5000              # 0 = sample once
+
+# Override any MD3 role (snake_case) on top of the generated palette:
+# [colors]
+# primary = "#d0bcff"
+# on_primary = "#381e72"
+# surface_container_high = "#2b2930"
+
+# Anything in [font], [bar], [island], [workspaces] still wins over MD3 defaults:
+# [font]
+# family = "Google Sans Flex"
+
+# [bar]
+# row_height = 36    # fixed pill height in px; font size can then grow without growing the bar
